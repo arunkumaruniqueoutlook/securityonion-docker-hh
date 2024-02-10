@@ -34,7 +34,7 @@
     "mathjs": "^5.2.3",
     "ngx-color-picker": "^7.0.2",
     "rxjs": "^6.5.2",
-    "rxjs-compat": "^6.0.0-rc.0",
+    "rxjs-compat": "^6.6.7",
     "tinygradient": "^0.4.2",
     "zone.js": "^0.9.1"
   },
