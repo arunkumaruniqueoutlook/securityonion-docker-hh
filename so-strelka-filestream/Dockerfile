@@ -3,7 +3,7 @@ LABEL maintainer "Security Onion Solutions, LLC"
 
 RUN CGO_ENABLED=0 go get github.com/target/strelka/src/go/cmd/strelka-filestream
 
-FROM alpine
+FROM alpine:3.20.3
 COPY --from=build /go/bin/strelka-filestream /usr/local/bin/
 RUN addgroup -g 939 strelka && \
     adduser -u 939 -G strelka strelka --disabled-password \
