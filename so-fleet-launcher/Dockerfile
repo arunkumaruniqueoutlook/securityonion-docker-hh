@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 WORKDIR /var/launcher
 COPY launcher /var/launcher
