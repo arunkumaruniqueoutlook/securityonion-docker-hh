@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.23.2
 LABEL maintainer "Security Onion Solutions, LLC"
 LABEL description="InfluxDB running in Docker container for use with Security Onion"
 
