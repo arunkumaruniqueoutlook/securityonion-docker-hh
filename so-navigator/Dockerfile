@@ -1,6 +1,6 @@
 # Build stage
 
-FROM node:alpine 
+FROM node:25.3.0-alpine3.23 
 
 WORKDIR /nav-app/
 
