@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.23.3
 LABEL maintainer "Security Onion Solutions, LLC"
 LABEL description="Fleet running in Docker container for use with Security Onion"
 
